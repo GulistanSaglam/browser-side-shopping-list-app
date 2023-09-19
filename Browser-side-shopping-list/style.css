@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 243, 208);
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+.container h2 {
+    margin-top: 100px;
+    color: rgb(57, 56, 56);
+}
+
+.container .enterList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.container .enterList input {
+    height: 50px;
+    width: 50%;
+    margin-right: 10px;
+    padding-left: 6px;
+    color: rgb(57, 56, 56);
+    border-color: white;
+    border-radius: 8px;
+    font-size: 1.3rem;
+}
+
+.container .enterList input::placeholder {
+    color: rgb(137, 136, 136);
+    font-size: 1.3rem;
+}
+
+.container .enterList button {
+    height: 55px;
+    width: 20%;
+    color: rgb(57, 56, 56);
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 8px;
+}
+
+.container .enterList button:hover,
+.container .enterList button:active {
+    background-color: rgb(233, 233, 67);
+}
+
+.listdiv {
+    height: 500px;
+    width: 70%;
+    margin: 20px auto;
+    font-size: 1.3em;
+}
+
+.deletebutton {
+    height: 24px;
+    width: auto;
+    border-radius: 4px;
+    border-color: yellow;
+    background-color: yellow;
+    color: rgb(57, 56, 56);
+    margin: 5px 5px 5px 20px;
+    padding: 2px 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.deletebutton:hover {
+    background-color: rgb(233, 233, 67);
+}
+
+.finishbutton {
+    height: 24px;
+    width: 50px;
+    border-radius: 4px;
+    border-color: rgb(64, 209, 250);
+    background-color: rgb(64, 209, 250);
+    color: rgb(57, 56, 56);
+    margin: 5px 5px 5px 20px;
+    padding: 2px 2px;
+    text-align: center;
+    display: inline-block;
+}
+
+.finishbutton:hover {
+    background-color:rgb(5, 148, 188); 
+}
+
+.togglee {
+    text-decoration: line-through;
+}
